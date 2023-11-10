@@ -1,0 +1,286 @@
+*{
+    padding: 0;
+    margin: 0;
+box-sizing: border-box;
+}
+.tet{
+    background-color:  #EFB983;
+    width: 100%;
+}
+.teet{
+    background-color: gold;
+    display: flex;
+    width: 100%;
+    color: black;
+}
+.get{
+    font-size:200px;
+}
+.toter{
+    font-size: 200px;
+    margin-left: 120px;
+    margin-top: -40px;
+}
+.met{
+    display: flex;
+    gap: 50px;
+    margin-top: 100px;
+}
+.tert{
+    font-size: 30px;
+    font-weight: 550;
+    margin-top: 100px;
+}
+.flet{
+    display: flex;
+    margin-top: 300px;
+}
+.total{
+    margin-left: -300px;
+    margin-top: 50px;
+}
+.trret{
+     margin-top: -300px;
+    
+} 
+ 
+ 
+/* mobileview */
+@media screen and (min-width:200px) and (max-width:480px){
+    .teet{
+        background-color: paleturquoise;
+        width: 400%;
+        color: black;
+        display: flex;
+        overflow-x: hidden;
+    }
+    
+.get{
+    font-size:300px;
+    margin-top: 50px;
+}
+.toter{
+    font-size: 300px;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+.met{
+    display: flex;
+    gap: 50px;
+    width: 250%;
+    margin-top: 50px;
+}
+.tert{
+    font-size: 100px;
+    font-weight: 550;
+    margin-top: 100px;
+}
+.flet{
+    display: none;
+  
+}
+ 
+}
+
+/* ipads,Tablets */
+@media screen and (min-width:481px) and (max-width:768px) {
+    .teet{
+        background-color: palevioletred;
+        color: black;
+       overflow-x: hidden;
+    }  
+    .get{
+        font-size:100px;
+        margin-top: 50px;
+    }
+    .toter{
+        font-size: 100px;
+        margin-left: 40px;
+        margin-top: 5px;
+    }
+    .met{
+        display: flex;
+        gap: 50px;
+        width: 250%;
+        margin-top: 50px;
+    }
+    .tert{
+        font-size: 50px;
+        font-weight: 550;
+        margin-top: 100px;
+    }
+    .flet{
+        display: flex;
+        margin-top: 450px;
+         
+    }
+    .total{
+      
+        margin-top: 220px;
+    }
+    .trret{
+        display: none ; 
+    } 
+}
+
+/* smallscreens,Laptops */
+
+@media screen and (min-width:769px) and (max-width:950px){
+    .teet{
+        background-color:palegreen;
+        color: black;
+    }
+    .get{
+        font-size:150px;
+    }
+    .toter{
+        font-size: 180px;
+        margin-left: 120px;
+        margin-top: -40px;
+    }
+    .met{
+        display: flex;
+        gap: 50px;
+        margin-top: 100px;
+        width: 150%;
+    }
+    .tert{
+        font-size: 25px;
+        font-weight: 550;
+        margin-top: 100px;
+    }
+    .flet{
+        display: flex;
+        margin-top: 300px;
+         
+    }
+    .total{
+        margin-left: -200px;
+        margin-top: -20px;
+        width: 500%;
+         
+    }
+    .trret{
+    width: 500%;
+    } 
+}
+@media screen and (min-width:950px) and (max-width:1024px) {
+    .teet{
+        background-color:palegreen;
+        color: black;
+    }
+    .get{
+        font-size:150px;
+    }
+    .toter{
+        font-size: 180px;
+        margin-left: 120px;
+        margin-top: -40px;
+    }
+    .met{
+        display: flex;
+        gap: 50px;
+        margin-top: 100px;
+        width: 150%;
+    }
+    .tert{
+        font-size: 25px;
+        font-weight: 550;
+        margin-top: 100px;
+    }
+    .flet{
+        display: flex;
+        margin-top: 300px;
+         
+    }
+    .total{
+        margin-left: -200px;
+        margin-top: -20px;
+        width: 500%;
+         
+    }
+    .trret{
+    width: 500%;
+    } 
+}
+
+@media screen and (min-width:1025px) and (max-width:1200px) {
+    .teet{
+        background-color:palegreen;
+        color: black;
+    }
+    .get{
+        font-size:150px;
+    }
+    .toter{
+        font-size: 180px;
+        margin-left: 120px;
+        margin-top: -40px;
+    }
+    .met{
+        display: flex;
+        gap: 50px;
+        margin-top: 100px;
+        width: 150%;
+    }
+    .tert{
+        font-size: 25px;
+        font-weight: 550;
+        margin-top: 100px;
+    }
+    .flet{
+        display: flex;
+        margin-top: 300px;
+         
+    }
+    .total{
+        margin-left: -200px;
+        margin-top: -20px;
+        width: 500%;
+         
+    }
+    .trret{
+    width: 500%;
+    } 
+}
+@media screen and (min-width:1201px) {
+    .teet{
+        background-color: gold;
+        display: flex;
+        width: 100%;
+        color: black;
+    }
+    .get{
+        font-size:200px;
+    }
+    .toter{
+        font-size: 200px;
+        margin-left: 120px;
+        margin-top: -40px;
+    }
+    .met{
+        display: flex;
+        gap: 50px;
+        margin-top: 100px;
+    }
+    .tert{
+        font-size: 30px;
+        font-weight: 550;
+        margin-top: 100px;
+    }
+    .flet{
+        display: flex;
+        margin-top: 300px;
+    }
+    .total{
+        margin-left: -300px;
+        margin-top: 50px;
+    }
+    .trret{
+         margin-top: -300px;
+        
+    } 
+       
+    
+}
+
