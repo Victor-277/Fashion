@@ -252,6 +252,7 @@ box-sizing: border-box;
     }
     .get{
         font-size:200px;
+        margin-left: 50px;
     }
     .toter{
         font-size: 200px;
@@ -261,26 +262,26 @@ box-sizing: border-box;
     .met{
         display: flex;
         gap: 50px;
+     margin-left: 50px;
         margin-top: 100px;
     }
     .tert{
         font-size: 30px;
         font-weight: 550;
         margin-top: 100px;
+        margin-left: 50px;
     }
     .flet{
         display: flex;
         margin-top: 300px;
     }
     .total{
-        margin-left: -300px;
-        margin-top: 50px;
+        margin-left: -150px;
+        margin-top: 20px;
     }
     .trret{
          margin-top: -300px;
         
     } 
-       
-    
 }
 
